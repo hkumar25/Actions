@@ -1,0 +1,9 @@
+name: Octo Organization CI
+on: Workflow_schedule  
+jobs:
+  First Job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a one-line script
+        run: echo Hello from Octo Organization
